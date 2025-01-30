@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Admin Panel</h1>
+        <button id="connectButton">Connect Wallet</button>
+    </header>
+    <main>
+        <h2>Create Election</h2>
+        <input type="text" id="electionTitle" placeholder="Election Title">
+        <input type="text" id="candidates" placeholder="Candidate Names (comma separated)">
+        <button id="createElectionButton">Create Election</button>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.6.1/web3.min.js"></script>
+    <script src="admin.js"></script>
+</body>
+
+</html>
