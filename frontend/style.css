@@ -5,6 +5,7 @@ body {
     margin: 0;
     padding: 0;
     color: #333;
+    text-align: center;
 }
 
 /* Шапка */
@@ -126,15 +127,24 @@ button.voteButton:hover {
 }
 
 /* Поля ввода */
+.input-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
 input {
     width: 80%;
     padding: 10px;
-    margin: 10px 0;
+    margin: 10px 5px;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
     transition: border 0.3s ease;
+    text-align: center;
 }
+
 
 input:focus {
     border-color: #007bff;
